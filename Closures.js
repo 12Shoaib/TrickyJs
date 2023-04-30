@@ -1,4 +1,11 @@
 //Closures : The process of being able to have access to outer function variables,
+//A closure is an inner function that has access to the variables in the outer (enclosing)
+//  function’s scope chain. The closure has access to variables in three scopes; specifically: 
+// (1) variable in its own scope, 
+// (2) variables in the enclosing function’s scope, and
+//  (3) global variables.
+
+
 // and parameters are known as closures.
 //Example one
 const outerFunction  = () => {

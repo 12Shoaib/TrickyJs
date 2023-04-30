@@ -40,4 +40,13 @@ function foo2()
 //the output will appear for first function but not in second function beacause of implicit colan at the end
 //of the return in second function as that line contains nothing this will go and implicitly add a colan so 
 // from there next lines wont be executed.
-``
+
+
+let d = {}
+
+['zebra' , 'horse'].forEach(function(k) {
+    d[k] = undefined
+})
+
+console.log(d)
+
