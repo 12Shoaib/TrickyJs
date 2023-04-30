@@ -24,3 +24,11 @@ console.log(y,z)
 
 const y = 10
 let z = 11
+
+// exmaple 3
+myVar;   
+myConst; 
+
+var myVar = 'value';
+const myConst = 3.14;
+

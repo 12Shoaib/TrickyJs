@@ -39,3 +39,4 @@ for (i = 0; i < 5; i++) {
 //updated everytime.Now as we are having a setTimout here which is an asynchronous task in js this will execute
 //after complition of synchrounous so when finally when synchronous is completed by that time the value of i '
 //is 3 as it has completed all its iterations and then the value gets printed .
+//it is actually couting loop ending count also
