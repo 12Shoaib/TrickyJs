@@ -9,5 +9,9 @@ function* generatoFunction () {
     }
 }
 const gen = generatoFunction()
-// console.log(gen.next())
+console.log(gen.next())
+console.log(gen.next())
+console.log(gen.next())
+console.log(gen.next())
+console.log(gen.next())
 
