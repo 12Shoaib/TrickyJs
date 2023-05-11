@@ -68,7 +68,7 @@ a[b]=123;
 a[c]=456;
 
 console.log(a[b]) // the output will be 456 not 123 here why the reason is the above will be read as
-
+  
 // var a={},
 // b={key:'b'},
 // c={key:'c'};
